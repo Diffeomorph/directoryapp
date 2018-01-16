@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { Http } from '@angular/http';
-import { RouterModule, Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -8,7 +7,7 @@ import { RouterModule, Router } from '@angular/router';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  constructor(private _httpService: Http, private router: Router) { }
+  constructor(private _httpService: Http) { }
   title: string = 'HELLO';
   apiValues: string[] = [];
   ngOnInit() {
@@ -16,7 +15,5 @@ export class AppComponent implements OnInit {
       this.apiValues = values.json() as string[];
     });
   }
-  btnClick(): void {
-    this.router.navigate(['/listing']);
-  }
+  
 }
