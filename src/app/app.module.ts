@@ -17,7 +17,7 @@ import { ListingsComponent } from './listings/listings.component';
     HttpModule,
     RouterModule.forRoot([
       {
-        path: 'listings',
+        path: 'listing',
         component: ListingsComponent
       }
     ])
@@ -25,4 +25,6 @@ import { ListingsComponent } from './listings/listings.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+
+}
