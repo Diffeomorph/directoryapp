@@ -5,10 +5,11 @@ import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { ListingsComponent } from './listings/listings.component';
+import { IndexcomponentComponent } from './indexcomponent/indexcomponent.component';
 
 const appRoutes: Routes = [
   { path: 'listing', component: ListingsComponent },
-  { path: 'home', component: AppComponent },
+  { path: 'home', component: IndexcomponentComponent },
   { path: '', redirectTo: 'home', pathMatch: 'full' }
 
 ];
@@ -16,7 +17,8 @@ const appRoutes: Routes = [
 @NgModule({
   declarations: [
     AppComponent,
-    ListingsComponent 
+    ListingsComponent,
+    IndexcomponentComponent 
   ],
   imports: [
     BrowserModule,
