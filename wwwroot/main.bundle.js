@@ -25,7 +25,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, ".containercenter {\r\n  width: 50%;\r\n  margin: 0 auto;\r\n  padding-bottom: 100px;\r\n  padding-top: 200px;\r\n}\r\n\r\n#backgroundimage {\r\n  /*background-image: url(\"backcity.jpeg\");*/\r\n}\r\n\r\n.vidbackground {\r\n  width: 100%;\r\n  height: 100%;\r\n}\r\n", ""]);
+exports.push([module.i, ".containercenter {\r\n  width: 50%;\r\n  margin: 0 auto;\r\n  padding-bottom: 100px;\r\n  padding-top: 200px;\r\n}\r\n\r\n.backgroundimage {\r\n  /*background-image: url(\"backcity.jpeg\");*/\r\n}\r\n\r\n.vidbackground {\r\n  width: 100%;\r\n  height: 100%;\r\n}\r\n", ""]);
 
 // exports
 
@@ -38,7 +38,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/app.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<link href=\"https://maxcdn.bootstrapcdn.com/bootswatch/4.0.0-beta.3/darkly/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-novkfxI48G9YvcamVHf01KL+Sm6JFherxeJKqUdbez8EoEsAued2k/cD43lYG+B1\" crossorigin=\"anonymous\">\r\n\r\n<div class=\"bs-component\">\r\n  <nav class=\"navbar navbar-expand-lg navbar-dark bg-primary\">\r\n    <a class=\"navbar-brand\" href=\"#\">Search</a>\r\n    <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarColor01\" aria-controls=\"navbarColor01\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\r\n      <span class=\"navbar-toggler-icon\"></span>\r\n    </button>\r\n\r\n    <div class=\"collapse navbar-collapse\" id=\"navbarColor01\">\r\n      <ul class=\"navbar-nav mr-auto\">\r\n        <li class=\"nav-item active\">\r\n          <a class=\"nav-link\" href=\"#\">Home <span class=\"sr-only\">(current)</span></a>\r\n        </li>\r\n        <li class=\"nav-item\">\r\n          <a class=\"nav-link\" href=\"#\">Features</a>\r\n        </li>\r\n        <li class=\"nav-item\">\r\n          <a class=\"nav-link\" href=\"#\">Pricing</a>\r\n        </li>\r\n        <li class=\"nav-item\">\r\n          <a class=\"nav-link\" href=\"#\">About</a>\r\n        </li>\r\n      </ul>\r\n      \r\n    </div>\r\n  </nav>\r\n</div>\r\n\r\n<div>\r\n  <div class=\"backgroundimage\">\r\n    <div class=\"containercenter\">\r\n      <form>\r\n        <fieldset>\r\n          <div class=\"form-group\">\r\n            <label for=\"exampleInputEmail1\">Enter Location</label>\r\n            <input type=\"email\" class=\"form-control\" id=\"exampleInputEmail1\" aria-describedby=\"emailHelp\" placeholder=\"Enter location\">\r\n          </div>\r\n          <button type=\"submit\" class=\"btn btn-primary\" routerLink=\"/listing\">Submit</button>\r\n        </fieldset>\r\n      </form>\r\n    </div>\r\n  </div>\r\n</div>\r\n\r\n<router-outlet></router-outlet>\r\n\r\n"
+module.exports = "<link href=\"https://maxcdn.bootstrapcdn.com/bootswatch/4.0.0-beta.3/cyborg/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-MtIP/3oPOnaTWtZGXE7C1YfcWSIgL8W+tyWY425Vav0Uten58co0sWnIfridWjr9\" crossorigin=\"anonymous\">\r\n\r\n<div class=\"bs-component\">\r\n  <nav class=\"navbar navbar-expand-lg navbar-dark bg-primary\">\r\n    <a class=\"navbar-brand\" href=\"#\">Search</a>\r\n    <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarColor01\" aria-controls=\"navbarColor01\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\r\n      <span class=\"navbar-toggler-icon\"></span>\r\n    </button>\r\n\r\n    <div class=\"collapse navbar-collapse\" id=\"navbarColor01\">\r\n      <ul class=\"navbar-nav mr-auto\">\r\n        <li class=\"nav-item active\">\r\n          <a class=\"nav-link\" href=\"#\">Home <span class=\"sr-only\">(current)</span></a>\r\n        </li>\r\n        <li class=\"nav-item\">\r\n          <a class=\"nav-link\" href=\"#\">Features</a>\r\n        </li>\r\n        <li class=\"nav-item\">\r\n          <a class=\"nav-link\" href=\"#\">Pricing</a>\r\n        </li>\r\n        <li class=\"nav-item\">\r\n          <a class=\"nav-link\" href=\"#\">About</a>\r\n        </li>\r\n      </ul>\r\n      \r\n    </div>\r\n  </nav>\r\n</div>\r\n\r\n<!--<div>\r\n  <div class=\"backgroundimage\">\r\n    <div class=\"containercenter\">\r\n      <form>\r\n        <fieldset>\r\n          <div class=\"form-group\">\r\n            <label for=\"exampleInputEmail1\">Enter Location</label>\r\n            <input type=\"email\" class=\"form-control\" id=\"exampleInputEmail1\" aria-describedby=\"emailHelp\" placeholder=\"Enter location\">\r\n          </div>\r\n          <button type=\"submit\" class=\"btn btn-primary\" routerLink=\"/listing\">Submit</button>\r\n        </fieldset>\r\n      </form>\r\n    </div>\r\n  </div>\r\n</div>-->\r\n\r\n<!--<router-outlet></router-outlet>-->\r\n\r\n"
 
 /***/ }),
 
@@ -114,7 +114,9 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 var appRoutes = [
-    { path: 'listing', component: __WEBPACK_IMPORTED_MODULE_6__listings_listings_component__["a" /* ListingsComponent */] }
+    { path: 'listing', component: __WEBPACK_IMPORTED_MODULE_6__listings_listings_component__["a" /* ListingsComponent */] },
+    { path: 'home', component: __WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* AppComponent */] },
+    { path: '', redirectTo: 'home', pathMatch: 'full' }
 ];
 var AppModule = (function () {
     function AppModule() {

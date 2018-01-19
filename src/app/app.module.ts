@@ -7,8 +7,11 @@ import { HttpModule } from '@angular/http';
 import { ListingsComponent } from './listings/listings.component';
 
 const appRoutes: Routes = [
-  { path : 'listing', component: ListingsComponent  }
-]
+  { path: 'listing', component: ListingsComponent },
+  { path: 'home', component: AppComponent },
+  { path: '', redirectTo: 'home', pathMatch: 'full' }
+
+];
 
 @NgModule({
   declarations: [
