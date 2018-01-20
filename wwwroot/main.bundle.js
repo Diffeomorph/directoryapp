@@ -229,7 +229,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/listings/listings.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"row\">\r\n  <div class=\"col-lg-12\">\r\n    <div class=\"page-header\">\r\n      <h1 id=\"containers\">Containers</h1>\r\n    </div>\r\n    <div class=\"bs-component\">\r\n      <div class=\"jumbotron\">\r\n        <h1 class=\"display-3\">Hello, world!</h1>\r\n        <p class=\"lead\">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>\r\n        <hr class=\"my-4\">\r\n        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>\r\n        <p class=\"lead\">\r\n          <a class=\"btn btn-primary btn-lg\" href=\"#\" role=\"button\">Learn more</a>\r\n        </p>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</div>\r\n"
+module.exports = "<div class=\"container\">\r\n  <div class=\"bs-docs-section\">\r\n\r\n    <div class=\"row\">\r\n      <div class=\"col-lg-12\">\r\n        <div class=\"page-header\">\r\n          <h1 id=\"containers\">Containers</h1>\r\n        </div>\r\n        <div class=\"bs-component\">\r\n          <div class=\"jumbotron\">\r\n            <h1 class=\"display-3\">Hello, world!</h1>\r\n            <p class=\"lead\">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>\r\n            <hr class=\"my-4\">\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</div>\r\n"
 
 /***/ }),
 
