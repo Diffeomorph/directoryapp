@@ -4,6 +4,8 @@ There are very few examples (if any) online of Angular and Bootstrap web app.
 
 Help much appreciated!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+If you clone this project, please create a branch and submit your enhancements.
+
 
 # ClientApp
 
