@@ -1,5 +1,7 @@
 The aim of this project is to make directory and listings web app using Angular and Bootstrap (with an Asp.Net Core backend)
 
+There are very few examples (if any) online of Angular and Bootstrap web app.
+
 Help much appreciated!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 
