@@ -1,3 +1,8 @@
+The aim of this project is to make directory and listings web app using Angular and Bootstrap (with an Asp.Net Core backend)
+
+Help much appreciated!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
 # ClientApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.2.
